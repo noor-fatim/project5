@@ -1,0 +1,80 @@
+*{
+	/*margin: 0;*/
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #aa83c9;
+	border: 2px solid black;
+}
+.container .section{
+	width: 50%;
+	height: 500px;
+	border-radius: 5px;
+	border: 1px solid black;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+	/*overflow: hidden;*/
+	background-color: #f5f2f2;
+}
+.section .todo-add{
+	margin-top: 30px;
+
+}
+.todo-add .todo-text{
+	width: 450px;
+	height: 30px;
+	margin-right: 5px;
+}
+.todo-add .submit-list{
+	width:100px;
+	height: 30px;
+	color: white;
+	font-size: 17px;
+	font-weight: 5px;
+	background-color: #4c3eed;
+}
+/*Adding unordered list */
+.section .todo-list{
+	/*width: 400px;
+	height: 30px;
+	border: 2px solid black;*/
+	position: relative;
+	right: 50px;
+	margin-top: 30px;
+
+
+}
+.todo-list li{
+	width: 450px;
+	height: 30px;
+	display: flex;
+	background-color: #C4E1E5;
+	justify-content: space-between;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+
+}
+button{
+	background-color: #4c3eed;
+	color: white;
+	padding: 0px 15px;
+	margin: 2px;
+
+}
